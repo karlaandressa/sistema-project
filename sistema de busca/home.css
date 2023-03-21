@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-family:Helvetica, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+ }
+ 
+ footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0c3d46;
+    height: 12vh;
+    color: white;
+ }
+ .container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+ }
+ section.module p{
+    margin-bottom: 40px;
+ }
+ section.module:last-child{
+    margin-bottom: 0;
+ }
+ section.module h2{
+    margin-bottom: 40px;
+ }
+ section.module.dados{
+    padding: 40px;
+    background: rgb(178, 228, 230);
+ }
+.botoes{
+    width: 250px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+ .btn{
+    border: none;
+    padding: 10px;
+    background-color: #41C2C9;
+    text-decoration: none;
+    color: white;
+    transition: background .3s;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: #0c3d46;
+}
+.btn:active{
+    color:  #0c3d46;
+}
+ section.module.inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(img/backg.png);
+ }
+section.module.inicio h1{
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    z-index: 40;
+}
+section.module.inicio p{
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    z-index: 20;
+}
+
+.elementExample {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    line-height: 200px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+  }
+  .elementExample_first {
+    background-color: #8E44AD;
+  }
+  .elementExample_last {
+    background-color: #C0392B;
+  }
+div.op1 {
+width: 38%;
+display: inline-block;
+
+font-size: 15px;
+text-align: center;
+padding: 5vw 0vw 5vw 0vw;
+min-width:40vw;
+}
+
+div.op2 {
+    width: 38%;
+    background-color: green;
+    display: inline-block;
+    margin-right: 0vw;
+    font-size:15px;
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+    min-width:40vw;
+    
+}
+h1{
+   color: red;
+}
+table,th,td{
+   border:1px solid red;
+   border-collapse: collapse;
+   padding: 5px 2px 5px 2px;
+}
+table{
+
+   width: 80%;
+
+}
+.estado{
+   text-align: left;
+}
+.dadosnum{
+   text-align: center;
+}
+th{
+   background-color: gray;
+   color: white;
+}
+.cards{
+   width: 100%;
+   height: 50vh;
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;   
+}
+.card{
+   background-color: #fff;
+   border: 2px solid #41C2C9;
+   width: 250px;
+   height: 200px;   
+}
