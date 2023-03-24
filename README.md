@@ -5,8 +5,8 @@
 - [x] exibe os dados de casos confirmados e mortes dos países: Australia, Brasil, Canada.
 - [x] armazena data e hora de acesso.
 
-Para utlizar este projeto realize o clone do repositorio através do comando `git clone`.
-Atente-se para os pré-requisitos
+Para utlizar este projeto realize o clone do repositorio através do comando `git clone` https://github.com/karlaandressa/sistema-project.git
+Atente-se para os pré-requisitos!
 
 ## Pre-requisitos para compilar o projeto:
  
@@ -15,7 +15,7 @@ Atente-se para os pré-requisitos
    - MySQL
    - Apache2
    
-* Realizar modificação no arquivo conexao.php :
+* Realizar modificação no arquivo conexao.php nas variaveis:
   - $hostname = "localhost";
   - $bancodedados = "xxxxx";
   - $usuario = "xxxxx";
